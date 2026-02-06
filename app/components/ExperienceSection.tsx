@@ -9,7 +9,7 @@ const ExperienceSection = () => {
 		},
 		{
 			project: 'RPG Game in Unreal Engine and C++',
-			link: 'https://github.com/JSandhu223/unreal-rpg/tree/rpg-attributes',
+			link: 'https://github.com/JSandhu223/unreal-rpg',
 			appType: 'Game',
 			techStack: 'Unreal Engine 5, C++',
 			description: 'An RPG that utilizies Epic\'s Gameplay Ability System framework for implementing complex gameplay systems/interactions and streamlines multiplayer support.',
@@ -40,7 +40,7 @@ const ExperienceSection = () => {
 								<div className="space-y-1">
 									<div className="flex flex-col md:flex-row md:items-center md:justify-between">
 										{/* <h4 className="text-md font-medium text-gray-900 dark:text-white">{exp.project}</h4> */}
-										<a href={exp.link} target="_blank" className="text-lg font-medium text-gray-900 dark:text-white">{exp.project}</a>
+										<a href={exp.link} target="_blank" className="text-lg font-medium text-gray-900 dark:text-white hover:underline">{exp.project}</a>
 										<span className="text-sm text-gray-500 dark:text-gray-400">{exp.techStack}</span>
 									</div>
 									<p className="text-sm font-medium text-gray-600 dark:text-gray-300">{exp.appType}</p>
