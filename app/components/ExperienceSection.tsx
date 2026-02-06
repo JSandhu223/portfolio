@@ -2,7 +2,7 @@ const ExperienceSection = () => {
 	const experiences = [
 		{
 			project: 'Friend Game Matcher',
-			link: '',
+			link: 'https://github.com/JSandhu223/game-matcher',
 			appType: 'Blazor App',
 			techStack: '.NET, Blazor',
 			description: 'A web app for helping friend groups (or strangers) looking to find common game interests. Uses the Steam Web API to collect user profiles data.',
