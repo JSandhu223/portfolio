@@ -13,12 +13,13 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-	title: '[Your Name] - Developer',
+	title: 'Jasraj Sandhu - Portfolio',
 	description:
 		'Welcome to my portfolio! I am a passionate developer who believes in simplicity and effectiveness. I focus on creating straightforward solutions that solve real problems, with clean code and intuitive user experiences.',
 	keywords: [
 		'Software Developer',
 		'Web Developer',
+		'Game Developer',
 		'Clean Code',
 		'Simple Design',
 		'JavaScript',
@@ -29,19 +30,19 @@ export const metadata: Metadata = {
 		'Backend Development',
 		'Jasraj Sandhu',
 	],
-	authors: [{ name: '[Your Name]' }],
-	creator: '[Your Name]',
+	authors: [{ name: 'Jasraj Sandhu' }],
+	creator: 'Jasraj Sandhu',
 	openGraph: {
-		title: '[Your Name] - Developer Portfolio',
+		title: 'Jasraj Sandhu - Developer Portfolio',
 		description: 'Passionate developer creating simple and effective solutions. Explore my projects and development approach.',
-		url: 'https://your-domain.com',
-		siteName: '[Your Name] - Portfolio',
+		url: 'https://jsandhu.dev',
+		siteName: 'Jasraj Sandhu - Portfolio',
 		images: [
 			{
 				url: '/og-image.jpg',
 				width: 1200,
 				height: 630,
-				alt: '[Your Name] - Developer Portfolio',
+				alt: 'Jasraj Sandhu - Developer Portfolio',
 			},
 		],
 		locale: 'en_US',
@@ -49,7 +50,7 @@ export const metadata: Metadata = {
 	},
 	twitter: {
 		card: 'summary_large_image',
-		title: '[Your Name] - Developer',
+		title: 'Jasraj Sandhu - Developer',
 		description: 'Passionate developer creating simple and effective solutions. Explore my projects and development approach.',
 		creator: '@yourusername',
 		images: ['/og-image.jpg'],
