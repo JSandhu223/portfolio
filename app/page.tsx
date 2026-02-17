@@ -4,7 +4,7 @@ import ExperienceSection from './components/ExperienceSection';
 
 export default function MinimalistPortfolio() {
 	return (
-		<main className="min-h-fit md:h-screen flex flex-col bg-white dark:bg-gray-900 pt-16 pb-16">
+		<main className="min-h-fit md:h-screen flex flex-col bg-white dark:bg-black pt-16 pb-16">
 			<div className="flex-1">
 				{/* Left Column - Profile */}
 				<div className="md:row-span-1 border-b md:border-b-0 md:border-r border-gray-200 dark:border-gray-800 md:flex md:items-center">
