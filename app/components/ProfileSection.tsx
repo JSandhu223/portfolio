@@ -19,7 +19,7 @@ const ProfileSection = () => {
 					</p>
 				</div>
 
-				<div className="space-y-4">
+				<div className="space-y-2">
 					{/* Contact Info */}
 					<div className="flex items-center justify-center space-x-2">
 						<svg className="w-4 h-4 text-gray-600 dark:text-gray-400" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
@@ -42,7 +42,7 @@ const ProfileSection = () => {
 					</div>
 
 					{/* Social Links */}
-					<div className="flex items-center justify-center space-x-4 pt-2">
+					<div className="flex items-center justify-center space-x-4">
 						<a
 							href="https://github.com/JSandhu223"
 							target="_blank"
