@@ -22,7 +22,7 @@ const ExperienceSection = () => {
 			link: 'https://github.com/J-essicaTran/inklink',
 			appType: 'Web App',
 			techStack: 'NextJS, React, Typescript, GCP',
-			description: 'A collaborative journaling app for artists to work together and brainstorm ideas.',
+			description: 'A collaborative journaling app for artists to work together and brainstorm ideas. Integrates Google Firebase services such as firestore database, authentication, and storage buckets.',
 		},
 	];
 
