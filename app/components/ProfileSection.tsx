@@ -2,10 +2,13 @@ import Image from 'next/image';
 
 const ProfileSection = () => {
 	return (
-		<div className="w-full py-8 md:py-0 bg-white dark:bg-gray-900 px-6 pt-16 sm:pt-0">
-			<div className="space-y-8 text-center">
+		<div className="w-full py-8 md:py-0 bg-white dark:bg-black px-6 pt-16 sm:pt-0">
+			<div className="space-y-8 text-center
+							bg-[radial-gradient(closest-side,theme(colors.emerald.white),theme(colors.white),theme(colors.white))]
+							dark:bg-[radial-gradient(closest-side,theme(colors.blue.950),theme(colors.gray.900),theme(colors.gray.950),theme(colors.black))]
+							py-10">
 				<div className="relative w-28 md:w-40 h-28 md:h-40 mx-auto">
-					<div className="relative w-full h-full rounded-full overflow-hidden ring-2 ring-gray-200 dark:ring-gray-700">
+					<div className="relative w-full h-full rounded-full overflow-hidden ring-2 ring-gray-700 dark:ring-white">
 						<Image src="/portrait.jpg" alt="Profile" fill className="object-cover" priority />
 					</div>
 				</div>
@@ -15,7 +18,7 @@ const ProfileSection = () => {
 					<h2 className="text-lg md:text-xl text-gray-600 dark:text-gray-400">Full-Stack • Game Dev</h2>
 					<div className="h-px w-16 bg-gray-200 dark:bg-gray-700 mx-auto my-4" />
 					<p className="text-sm md:text-base text-gray-600 dark:text-gray-400 max-w-xs mx-auto leading-relaxed">
-						An upcoming software developer with a background in games programming.
+						An upcoming software developer with a special interest in creating full stack web applications and games.
 					</p>
 				</div>
 
