@@ -22,7 +22,7 @@ const ExperienceSection = () => {
 			link: 'https://github.com/J-essicaTran/inklink',
 			appType: 'Web App',
 			techStack: 'NextJS, React, Typescript, GCP',
-			description: 'A collaborative journaling app for artists to work together and brainstorm ideas. Integrates Google Firebase services such as firestore database, authentication, and storage buckets.',
+			description: 'A journaling app for artists to upload artwork and collaborate. Integrates Google Firebase services such as firestore database, authentication, and storage buckets.',
 		},
 	];
 
@@ -54,10 +54,10 @@ const ExperienceSection = () => {
 				<div className="flex flex-wrap justify-start gap-6">
 					{experiences.map((exp) => (
 						<div key={exp.appType} className="border-solid border-2 border-white rounded-md overflow-hidden w-full flex flex-row">
-							<a href={exp.link} target="_blank" className="hover:bg-sky-700">
+							<a href={exp.link} target="_blank" className="hover:bg-blue-300 dark:hover:bg-blue-950">
 								<div className="p-4">
 									{/* <img className="" src={exp.image}></img> */}
-									<h2 className="dark: text-white">{exp.project}</h2>
+									<h2 className="text-black dark:text-white">{exp.project}</h2>
 									<p className="text-sm italic text-black dark:text-white leading-relaxed">{exp.techStack}</p>
 									<p className="mt-auto mb-auto text-sm text-gray-600 dark:text-gray-400 leading-relaxed">{exp.description}</p>
 								</div>
