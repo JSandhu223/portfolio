@@ -5,7 +5,7 @@ const ProfileSection = () => {
 		<div className="w-full py-8 md:py-0 bg-white dark:bg-black px-6 pt-16 sm:pt-0">
 			<div className="space-y-8 text-center
 							bg-[radial-gradient(closest-side,theme(colors.emerald.white),theme(colors.white),theme(colors.white))]
-							dark:bg-[radial-gradient(closest-side,theme(colors.emerald.900),theme(colors.emerald.950),theme(colors.black))]
+							dark:bg-[radial-gradient(closest-side,theme(colors.blue.950),theme(colors.gray.900),theme(colors.gray.950),theme(colors.black))]
 							py-10">
 				<div className="relative w-28 md:w-40 h-28 md:h-40 mx-auto">
 					<div className="relative w-full h-full rounded-full overflow-hidden ring-2 ring-gray-200 dark:ring-gray-700">
