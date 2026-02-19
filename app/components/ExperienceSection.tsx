@@ -53,8 +53,8 @@ const ExperienceSection = () => {
 
 				<div className="flex flex-wrap justify-start gap-6">
 					{experiences.map((exp) => (
-						<div key={exp.appType} className="border-solid border-2 border-white rounded-md overflow-hidden w-full flex flex-row">
-							<a href={exp.link} target="_blank" className="hover:bg-blue-300 dark:hover:bg-blue-950">
+						<div key={exp.appType} className="border-solid border-2 border-white rounded-md bg-gray-100 dark:bg-none overflow-hidden w-full flex flex-row">
+							<a href={exp.link} target="_blank" className="hover:bg-gray-300 dark:hover:bg-blue-950">
 								<div className="p-4">
 									{/* <img className="" src={exp.image}></img> */}
 									<h2 className="text-black dark:text-white">{exp.project}</h2>
