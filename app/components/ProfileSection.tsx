@@ -8,7 +8,7 @@ const ProfileSection = () => {
 							dark:bg-[radial-gradient(closest-side,theme(colors.blue.950),theme(colors.gray.900),theme(colors.gray.950),theme(colors.black))]
 							py-10">
 				<div className="relative w-28 md:w-40 h-28 md:h-40 mx-auto">
-					<div className="relative w-full h-full rounded-full overflow-hidden ring-2 ring-gray-200 dark:ring-gray-700">
+					<div className="relative w-full h-full rounded-full overflow-hidden ring-2 ring-gray-700 dark:ring-white">
 						<Image src="/portrait.jpg" alt="Profile" fill className="object-cover" priority />
 					</div>
 				</div>
