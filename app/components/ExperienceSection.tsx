@@ -6,7 +6,7 @@ const ExperienceSection = () => {
 			link: 'https://github.com/JSandhu223/game-matcher',
 			appType: 'Blazor App',
 			techStack: '.NET, Blazor',
-			description: 'A web app for helping friend groups (or strangers) looking to find common game interests. Uses the Steam Web API to collect user profiles data.',
+			description: 'A web app for helping friend groups (or strangers) looking to find common game interests. Uses the Steam Web API to collect user profiles, friend lists, and game libraries.',
 		},
 		{
 			project: 'RPG in Unreal Engine',
