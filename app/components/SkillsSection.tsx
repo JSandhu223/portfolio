@@ -102,7 +102,8 @@ const SkillsSection = () => {
 					{techStack.map((t) => (
 						<div key={t.skill}>
 							<div className="flex flex-col items-center p-4 bg-gray-900 rounded-md dark:hover:bg-gray-400">
-								<img src={t.icon} className="max-w-16 max-h-16"></img>
+								{/* <img src={t.icon} className="max-w-16 max-h-16"></img> */}
+								<Image src={t.icon} alt='skill' width={48} height={48} />
 								<h4 className="text-sm font-medium text-black dark:text-white pt-2">{t.skill}</h4>
 							</div>
 						</div>
