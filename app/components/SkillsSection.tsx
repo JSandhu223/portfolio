@@ -92,6 +92,10 @@ const SkillsSection = () => {
 			skill: 'Unreal',
 			icon: "/icons/unreal.png"
 		},
+		{
+			skill: 'Godot',
+			icon: "/icons/godot.png"
+		},
 	];
 
 	return (
@@ -108,7 +112,7 @@ const SkillsSection = () => {
 							<div className="flex flex-col items-center p-4 bg-gray-100 dark:bg-gray-900 rounded-md hover:bg-gray-200 dark:hover:bg-blue-950">
 								{/* <img src={t.icon} className="max-w-16 max-h-16"></img> */}
 								<Image src={t.icon} alt='skill' width={48} height={48} />
-								<h4 className="text-sm font-medium text-black dark:text-white pt-2">{t.skill}</h4>
+								<h4 className="text-sm font-medium text-black dark:text-white pt-3">{t.skill}</h4>
 							</div>
 						</div>
 					))}
